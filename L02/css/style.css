@@ -1,0 +1,45 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content min-content auto;
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#span{
+    position: fixed;
+    border: thin solid white;
+    height: 20px;
+    width: 200px;
+    z-index: 100px;  
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div0{
+    position: relative;
+    background-color: rgb(0, 75, 12);
+    height: 500px;
+    width: 400px;
+    margin: 25px;
+}
+
+
+#div1{
+    position: relative;
+    background-color: rgb(0, 75, 12);
+    height: 500px;
+    width: 400px;
+    margin: 25px;
+}
